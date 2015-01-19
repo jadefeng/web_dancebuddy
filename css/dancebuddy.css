@@ -1,0 +1,51 @@
+body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+    
+section, header {
+	min-height: 80vh;
+}
+
+#services {
+	text-align: center;
+}
+
+#services a {
+	color: black;
+}
+
+.row + .row {
+	margin-top: 20px;
+}
+
+#team a {
+	color: black;
+}
+
+#team img {
+	color: 3px solid #F0BF00;
+}
+
+
+.lessonDropdown {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 0;
+}
+
+.lessonDropdown button {
+	padding: 0;
+	border: 0;
+	background: none;
+	font-size: 1em;
+	vertical-align: top;
+}
+
+.secret-input {
+	padding: 5px;
+	line-height: 2em;
+}
+
+.btn-large {
+	padding: 6px 14px;
+}
